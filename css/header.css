@@ -1,0 +1,133 @@
+header{
+    background-color: rgba(0, 0, 0, 0.55) !important;
+    justify-content: center;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, .25);
+
+}
+.navbar{
+  margin:0% 5%;
+}
+.navbar-brand img{
+  height: 50px;
+  /* margin: 0px !important;
+  padding: 0px !important; */
+  /* border: 1px solid white; */
+
+}
+.navbar-brand .img1{
+  height: 40px;
+ 
+}
+.navbar a{
+    color: #ffffff !important;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin: 0px 5px; */
+    
+   
+}
+.navbar-nav{
+  margin-right: 20% !important;
+}
+.nav-item{
+  margin: 0.5% 2%;
+}
+.nav-link:hover{
+  color: rgb(194, 185, 127)!important;
+  /* color: #bcaa99 !important; */
+}
+.nav-item.active a{
+  color: rgb(194, 185, 127)!important;
+  font-weight: bolder;
+}
+/* .search{
+    float: left !important;
+    transition: all 0.35s, border-radius 0s;
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.7) inset;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    margin-left: 1%;
+} */
+
+ .search{
+   position: relative;
+   height: 40px;
+  background-color: #fff !important;
+  border-radius: 35px !important;
+  float: left !important;
+  transition: all 0.35s ease;;
+}
+.form-inline  input.form-control {
+   display: none;
+   
+    /* transition: all 0.35s, border-radius 0s; */
+   width: 250px ;
+   margin: 0 !important;
+   padding: 5% !important;
+   background-color: transparent !important;
+   color: #000 !important;
+ 
+  border: none !important;
+ } 
+ .form-inline  input.form-control:hover{
+   box-shadow: none;
+  
+ }
+ 
+.icon{
+  border-radius: 35px !important;
+  text-align: center !important;
+  /* justify-content: center !important; */
+  border: 3px solid #ffffff !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.7) inset;
+  background-color: #fff !important;
+  width: 40px;
+  height: 40px;
+  margin: 0px !important;
+  padding: 5px !important;
+position: absolute;
+top: 0% !important;
+right: 0%;
+} 
+.icon .fa{
+
+  
+   color: #000;
+
+
+   font-size: 20px;
+   cursor: pointer;
+  
+ } 
+
+ @media screen and (max-width: 480px){
+   .search{
+     margin-left: 15% !important;
+     margin-bottom: 10%;
+   }
+ }
+
+/* .search{
+  position: relative;
+}
+.search input[type='text']{
+    border-radius: 35px !important;
+    padding: 0 10px;
+    width: 250px;
+    border: 0;
+}
+.icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 35px;
+  height: 100%;
+  color: #000 !important;
+  border-radius: 50%;
+;
+} */

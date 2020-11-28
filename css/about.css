@@ -1,0 +1,38 @@
+body{
+    margin: 0 !important;
+    padding:  0 !important;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(Capture.PNG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #000 !important;
+}
+
+.about .abouthead{
+    margin:5%;
+    padding: 5%;
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Righteous', cursive; */
+   
+    /* */
+
+    background-color: rgba(136 , 102, 93, 0.5);
+    
+}
+.about .abouthead .aboutbody h1{
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 55px !important;
+    letter-spacing:3px !important;
+    font-family: 'Acme', sans-serif;
+
+    /* font-weight: 700 !important; */
+    color: #000;
+}
+
+.about .abouthead .aboutbody p{
+    font-weight: 500 !important;
+    text-align: justify;
+    font-size: 18px !important;
+}

@@ -1,0 +1,144 @@
+body{
+    margin: 0 !important;
+    padding:  0 !important;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(Capture.PNG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #000 !important;
+}
+.products{
+    background-color: rgba(136 , 102, 93, 0.5);
+    margin:5%;
+    padding: 5%;
+    /* border: 1px solid black; */
+}
+.products .row1{
+    margin: 2% 0% ;
+}
+
+.products .phead h1{
+    text-align: center;
+    padding: 2%;
+    font-size: 55px !important;
+    letter-spacing:5px !important;
+    font-family: 'Acme', sans-serif;
+
+    /* font-weight: 700 !important; */
+    color: #000;
+}
+.products .pbody {
+    padding: 2% 5%;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, .25);
+
+}
+
+.products .pbody h3{
+    /* padding: 1% */
+    padding-bottom: 1%;
+    font-size: 36px !important;
+    letter-spacing:3px !important;
+    font-family: 'Acme', sans-serif;
+
+    /* font-weight: 700 !important; */
+    color: #000;
+}
+.products .pbody .row{
+    /* border: 1px solid blue; */
+    /* margin: 0%;
+    padding: 0%; */
+}
+.products .pbody .row .colbody{
+    /* border: 1px solid blueviolet; */
+    margin: 0%;
+    padding: 0%;
+}
+/* cards */
+.products .pbody .row .colbody .card {
+    /* border: 1px solid black; */
+    /* height: 320px; */
+    width: 175px;
+    margin: 5px 6px !important;
+    padding-top: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.products .pbody .row .colbody .card .card-body{
+    /* background-color: rgba(225, 255, 255, 0.8) !important; */
+}
+.products .pbody .row .colbody .card a
+ {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+.products .pbody .row .colbody .card a img
+{
+
+    width: 100%;
+    height: 188px;
+    padding: 5%;
+}
+
+.products .pbody .row .colbody .card a .card-body{
+    background-color: #f5f5f5;
+}
+
+.products .pbody .row .colbody .card a .card-text{
+    height: 36px;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp: 2;
+    color: #000 !important;
+    font-size: 16px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.products .pbody .row .colbody .card a .price,
+.products .pbody .row .colbody .card a .card-text,
+.products .pbody .row .colbody .card a .stars{
+    margin-bottom: 4px !important;
+}
+
+
+.products .pbody .row .colbody a .price
+ {
+    font-size: 14px;
+    color: #0275d8;
+    letter-spacing: -.56px;
+    display: block;
+    margin-bottom: 0px;
+
+}
+.products .pbody .row .colbody .stars{
+    display: block;
+}
+.products .pbody .row .colbody .card a .card-body .stars .rating {
+    color: #9e9e9e;
+    margin-left: 5px;
+}
+
+
+
+
+.products .pbody .row .colbody .card a .stars .rating {
+    font-size: 12px;
+}
+
+
+
+.fa-star {
+    color: #faca51;
+    margin-right: -3px;
+}
+
+
+
+
+.products .pbody .row .colbody .card:hover {
+    box-shadow: 2px 8px 12px 2px rgba(58, 58, 58, .25);
+} 

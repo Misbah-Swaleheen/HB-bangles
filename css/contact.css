@@ -1,0 +1,117 @@
+body{
+    margin: 0 !important;
+    padding:  0 !important;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(Capture.PNG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    /* color: #fff !important; */
+}
+ .contact{
+    padding: 5%;
+   
+    
+
+    /* border: 1px solid black; */
+}
+.contact .chead{
+    /* border: 1px solid blue; */
+}
+.contact .chead .cbody {
+    text-align: center;
+    /* border: 1px solid red; */
+    background-color: rgba(136 , 102, 93, 0.5);
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.2); 
+    padding: 5%;
+    border-radius: 5px;
+}
+.contact .chead .cbody h1{
+    font-size: 55px !important;
+    letter-spacing:5px !important;
+    font-family: 'Acme', sans-serif;
+
+    /* font-weight: 700 !important; */
+    color: #000;
+}
+.contact .chead .cbody p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0px;
+}
+.contact .chead .cbody a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 2%;
+    
+}
+.contact .chead .cbody span{
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 2%;
+    border-right: 1px solid #000;
+    
+}
+
+.contact .chead .cbody .form{
+    padding: 5% 7%;
+    margin: 0% 8% !important;
+    /* border: 1px solid black; */
+    /* box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);  */
+    
+    
+}
+
+.contact .chead .cbody input,
+.contact .chead .cbody label,
+.contact .chead .cbody textarea{
+    display: block;
+    text-align: left;
+    margin: 0;
+    
+}
+.contact .chead .cbody input{
+    height: 35px;
+    margin-bottom: 2%;
+    font-size: 18px !important;
+    color: #000 !important;
+    
+    /* background-color: rgba(255,255,255,0.5); */
+    
+}
+
+/* .contact .chead .cbody input:focus{
+    border: 5px solid  rgb(142, 85, 114) !important;
+    
+} */
+.contact .chead .cbody input,
+.contact .chead .cbody textarea{
+    width: 100%;
+    padding: 3% 4%;
+    border: 1px solid #000 !important;
+    border-radius: 3px;
+    outline: none;
+}
+.contact .chead .cbody label{
+    color: #000 !important;
+    font-size: 20px;
+}
+.contact .chead .cbody .submit{
+   float: right;
+   font-size: 18px;
+   margin: 2% ;
+   padding: 1.5% 3%;
+   border: 1px solid #fff !important;
+   background-color:  rgba(142, 85, 114, .7);
+   /* background-color: rgba(188, 170, 153, .7); */
+   color: #fff;
+   transition: all .5s ease;
+
+}
+.contact .chead .cbody .submit:hover{
+    background-color:  rgb(142, 85, 114);
+}

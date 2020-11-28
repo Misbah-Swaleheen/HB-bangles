@@ -1,0 +1,139 @@
+footer{
+    background-color: #222;
+    margin-top: 0% !important;
+    
+}
+.foot{
+    /* margin: 20px 50px !important; */
+    color: white;
+    margin: 5%  !important;
+   
+}
+.head1{
+    margin-top: 35px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 25px;
+    background-color: #000;
+    border-radius: 5px;
+}
+.head1 h5{
+    margin: 10px 0;
+}
+.body1{
+    /* margin-left: -20px !important; */
+}
+.body1 ul li a{
+    text-decoration: none;
+    color: white !important;
+    font-size: 16px; 
+    
+}
+.body1 ul{
+    list-style-type: none;
+    /* margin-left: -5%; */
+}
+.body1 ul li{
+    padding-bottom: 5px !important;
+}
+.body1 .icons{
+    display: flex;
+    margin-top: 10%;
+}
+
+.icons li{
+   
+    border-radius: 20px;
+   margin-right: 3%;
+   
+    
+}
+.icons li  a{
+  
+    padding: 8px 10px;
+    font-size: 18px !important;
+    border-radius: 50%;
+    
+    
+}
+
+.fa-facebook{
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+.fb{
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
+    color: white;
+}
+.fb:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #3b5998 !important;
+}
+
+.wapp{
+      background-color:#25d366;
+    border: 1px solid #25d366;
+    color: white;
+}
+.wapp:hover{
+    background-color:white;
+    border: 1px solid white;
+    color: #25d366 !important;
+}
+.yt{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+.yt:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: red !important;
+}
+.ins{
+        color:white;
+        background-image: linear-gradient(to top right, #F58529,#FEDA77,#DD2A7B,#8134AF,#515BD4);
+          
+}
+
+.ins:hover{
+    
+    background-image: -webkit-linear-gradient(to top right, #F58529,#FEDA77,#DD2A7B,#8134AF,#515BD4) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    /* -webkit-text-fill-color: transparent; */
+    color: transparent !important;
+}
+.ph{
+    background-color: #00acee;
+    border: 1px solid #00acee;
+    color: white;
+}
+.ph:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #00acee !important;
+}
+.pr{
+    background-color: 	#E60023;
+    border: 1px solid 	#E60023;
+    color: white;
+}
+.pr:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: 	#E60023 !important;
+}
+
+.last-footer{
+    background-color: #757575;
+    color: white;
+    padding: 0px 0;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+}
+

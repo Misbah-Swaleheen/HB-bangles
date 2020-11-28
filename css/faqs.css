@@ -1,0 +1,83 @@
+body{
+    margin: 0 !important;
+    padding:  0 !important;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(Capture.PNG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    /* color: #fff !important; */
+}
+.faqs{
+    padding: 5%;
+}
+.fahead{
+    background-color: rgba(136 , 102, 93, 0.5);
+    /* border: 1px solid red; */
+    padding: 5%;
+    border-radius: 5px;
+    
+ 
+}
+.fabody{
+    margin:0% 5%;
+    width: 30vw;
+    /* border: 1px solid white; */
+}
+#head,
+        .card,
+        .card-body{
+           
+            width: 100%;
+            padding: 15px;
+            /* color: #000 !important;  */
+            /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+        }
+
+.faqs .fahead .fabody #head h1{
+            /* font-size: 22px; */
+            text-align: center;
+            font-size: 55px !important;
+            letter-spacing:3px !important;
+            font-family: 'Acme', sans-serif;
+        
+            /* font-weight: 700 !important; */
+            color: #000;
+           
+}
+
+
+        .card {
+            font-size: 18px !important;
+            font-weight: 500 !important;
+            cursor: pointer;
+            padding-left: 5%;
+            text-align: left !important;
+            background-color: transparent !important;
+            /* border-radius: 15px !important;
+            border: none !important; */
+        }
+        .btn{
+            width: 100%;
+            text-align: left !important;
+            /* color: #fff !important; */
+            border-radius: 0px !important;
+            box-shadow: none !important;
+            /* font-weight: 500 !important; */
+        }
+
+        .card-body {
+            /* font-size: 18px;
+            background-color: rgba(0, 0, 0, 0.5) !important;
+            color: #fff !important; */
+            /* text-align: justify !important; */
+            /* border-bottom: 1px solid rgba(58, 58, 58, .5); */
+
+        }
+
+        .fa {
+            /* float: right; */
+            font-weight: bold;
+            padding-right: 2%;
+        }
