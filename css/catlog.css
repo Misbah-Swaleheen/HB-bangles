@@ -1,5 +1,5 @@
 body{
-    background-image: url(Capture.PNG);
+    background-image: url(/Images/Capture.PNG);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -16,12 +16,15 @@ body{
   /* height: 88vh; */
   /* border: 1px solid #000; */
   /* vertical-align: middle !important; */
+  height: 80vh;
 }
 .box .row{
   padding: 4%;
   padding-top: 2%;
   background-color: rgba(136 , 102, 93, 0.5);
-  margin: 10% -5%!important;
+  position: relative;
+  top: 25% !important;
+  /* margin : 10%!important; */
   /* vertical-align: middle !important; */
   /* border: 1px solid #fff; */
   /* position: relative;

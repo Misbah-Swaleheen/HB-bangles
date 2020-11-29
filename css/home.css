@@ -2,14 +2,20 @@ body{
     margin: 0 !important;
     padding:  0 !important;
     font-family: 'Roboto', sans-serif;
-    background-image: url(Capture.PNG);
+    background-image: url(/Images/Capture.PNG);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     /* color: #fff !important; */
 }
+.carousel{
+    margin-top: 4%;
+    
+}
 .carousel-item img{
-    height: 500px;
+    height: 600px;
+    /* border-radius: 10px !important; */
+
 }
 section{
     margin-bottom: 4% ;

@@ -2,7 +2,7 @@ body{
     margin: 0 !important;
     padding:  0 !important;
     font-family: 'Roboto', sans-serif;
-    background-image: url(Capture.PNG);
+    background-image: url(/Images/Capture.PNG);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -56,13 +56,15 @@ body{
     /* border: 1px solid blueviolet; */
     margin: 0%;
     padding: 0%;
+
+
 }
 /* cards */
 .products .pbody .row .colbody .card {
     /* border: 1px solid black; */
     /* height: 320px; */
     width: 175px;
-    margin: 5px 6px !important;
+    margin: 5px auto !important;
     padding-top: 5px;
     background-color: rgba(255, 255, 255, 0.7);
 }
