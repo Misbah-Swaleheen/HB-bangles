@@ -2,7 +2,7 @@ body{
     margin: 0 !important;
     padding:  0 !important;
     font-family: 'Roboto', sans-serif;
-    background-image: url(/Images/Capture.PNG);
+    background-image: url(Capture.PNG);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
